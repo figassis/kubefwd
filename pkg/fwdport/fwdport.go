@@ -14,9 +14,9 @@ import (
 
 	"github.com/txn2/txeh"
 
-	"github.com/txn2/kubefwd/pkg/fwdpub"
+	"github.com/figassis/kubefwd/pkg/fwdpub"
 
-	"github.com/txn2/kubefwd/pkg/portforward"
+	"github.com/figassis/kubefwd/pkg/portforward"
 	"k8s.io/client-go/kubernetes"
 	restclient "k8s.io/client-go/rest"
 	"k8s.io/client-go/transport/spdy"

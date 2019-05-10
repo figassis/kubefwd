@@ -201,8 +201,8 @@ func (pf *PortForwarder) listenOnPort(port *ForwardedPort) error {
 	tcp6 := "::1"
 
 	if pf.localIp != nil {
-		tcp4 = pf.localIp.To4().String()
-		tcp6 = pf.localIp.To16().String()
+		//tcp4 = pf.localIp.To4().String()
+		//tcp6 = pf.localIp.To16().String()
 	}
 
 	errTcp4 := pf.listenOnPortAndAddress(port, "tcp4", tcp4)
