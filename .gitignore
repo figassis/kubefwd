@@ -1,7 +1,6 @@
 .idea
 .DS_Store
 dist
-vendor
 kubefwd
 *.out
 vendor/*/
