@@ -2,4 +2,8 @@
 .DS_Store
 dist
 vendor
-
+kubefwd
+*.out
+vendor/*/
+.vscode
+**/__MACOSX/*
